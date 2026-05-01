@@ -3,10 +3,48 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="DrMBL — hip hop, electro, beats. Découvrez la musique et les découvertes de DrMBL." />
-  <title>DrMBL — Music & Discovery</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎵</text></svg>" />
+  <title>DrMBL — hip hop · electro · beats | Production musicale</title>
+  <meta name="description" content="DrMBL — beatmaker, producteur hip hop et electro. Découvrez la musique, les découvertes et les expérimentations de DrMBL. Ableton, SP 404 mk2, Microfreak." />
+  <meta name="keywords" content="DrMBL, hip hop, electro, beats, production musicale, Ableton, SP 404, beatmaker" />
+  <link rel="canonical" href="https://docdavkitty.github.io/drmbl/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="DrMBL — hip hop · electro · beats" />
+  <meta property="og:description" content="Beatmaker, producteur — entre hip hop rugueux et electro analogique. Découvrez ma musique sur SoundCloud et YouTube." />
+  <meta property="og:url" content="https://docdavkitty.github.io/drmbl/" />
+  <meta property="og:image" content="https://docdavkitty.github.io/drmbl/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:site_name" content="DrMBL" />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="DrMBL — hip hop · electro · beats" />
+  <meta name="twitter:description" content="Beatmaker, producteur — entre hip hop rugueux et electro analogique." />
+  <meta name="twitter:image" content="https://docdavkitty.github.io/drmbl/og-image.png" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "DrMBL",
+    "alternateName": "David",
+    "description": "Beatmaker, producteur hip hop et electro. Ableton user, SP 404 mk2, Microfreak beginner.",
+    "url": "https://docdavkitty.github.io/drmbl/",
+    "sameAs": [
+      "https://soundcloud.com/david-pariente-1",
+      "https://www.youtube.com/@DrMaboule"
+    ],
+    "image": "https://i1.sndcdn.com/avatars-UO9Ez9AenPiMAo2Q-fSWtiA-t500x500.jpg",
+    "genre": ["Hip Hop", "Electronic", "Beats"]
+  }
+  </script>
+
+  <link rel="stylesheet" href="/drmbl/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="/drmbl/favicon.svg" />
 </head>
 <body>
   <!-- Navigation -->
@@ -27,7 +65,7 @@
   <section id="hero">
     <div class="hero-content">
       <div class="hero-avatar">
-        <img src="https://i1.sndcdn.com/avatars-UO9Ez9AenPiMAo2Q-fSWtiA-t500x500.jpg" alt="DrMBL" />
+        <img src="https://i1.sndcdn.com/avatars-UO9Ez9AenPiMAo2Q-fSWtiA-t500x500.jpg" alt="DrMBL — portrait du beatmaker" />
       </div>
       <h1>DrMBL</h1>
       <p class="hero-tagline">hip hop · electro · beats</p>
@@ -62,6 +100,7 @@
         scrolling="no"
         frameborder="no"
         allow="autoplay"
+        title="DrMBL sur SoundCloud"
         src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F109974105&show_artwork=true&visual=true&auto_play=false"
       ></iframe>
     </div>
@@ -72,7 +111,6 @@
     </div>
 
     <div class="video-grid">
-      <!-- 🎬 Vidéo 1 - À remplacer -->
       <div class="video-card placeholder">
         <div class="video-thumb placeholder-icon">🎥</div>
         <div class="video-info">
@@ -80,7 +118,6 @@
           <p>Ajoute ici le lien YouTube</p>
         </div>
       </div>
-      <!-- 🎬 Vidéo 2 -->
       <div class="video-card placeholder">
         <div class="video-thumb placeholder-icon">🎥</div>
         <div class="video-info">
@@ -88,7 +125,6 @@
           <p>Ajoute ici le lien YouTube</p>
         </div>
       </div>
-      <!-- 🎬 Vidéo 3 -->
       <div class="video-card placeholder">
         <div class="video-thumb placeholder-icon">🎥</div>
         <div class="video-info">
@@ -114,7 +150,6 @@
     </div>
 
     <div class="discovery-grid">
-      <!-- 💡 Exemples modifiables -->
       <article class="discovery-card" data-category="music">
         <div class="card-tag">Musique</div>
         <h3>Artiste / lien</h3>
@@ -226,6 +261,6 @@
   <!-- Scroll to top -->
   <button id="scroll-top" aria-label="Retour en haut">↑</button>
 
-  <script src="script.js"></script>
+  <script src="/drmbl/script.js"></script>
 </body>
 </html>
