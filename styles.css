@@ -241,6 +241,28 @@ img {
   box-shadow: 0 8px 24px rgba(255, 0, 0, 0.3);
 }
 
+.btn-email {
+  background: #333;
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  padding: 0.8rem 1.6rem;
+  border-radius: var(--radius-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 500;
+  transition: all var(--transition);
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-email:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px var(--accent-glow);
+}
+
 /* ---------- Sections ---------- */
 section {
   padding: 5rem 1.5rem;
