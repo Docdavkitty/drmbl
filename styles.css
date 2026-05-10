@@ -327,6 +327,22 @@ section {
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
 }
 
+.video-card.new {
+  border-color: var(--accent);
+  position: relative;
+}
+
+.video-card.new::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-secondary));
+  z-index: 1;
+}
+
 .video-thumb {
   width: 100%;
   aspect-ratio: 16 / 9;
